@@ -1,0 +1,102 @@
+*{
+    font-family: 'Cairo', sans-serif;
+} 
+
+// Start of Variables
+$blue_color : #0084bd ;
+// end  of Variables 
+
+header {
+    .info{
+        width: 300px;
+        img{
+            width: 200px;
+        }
+        p {
+            color: #{$blue_color};
+        }
+    }
+    nav{
+        background-color: #{$blue_color};
+        border-radius: 30px;
+        a{
+            color: #fff 
+            !important;
+        }
+        a:hover{
+            font-size: 25px;
+            transition: .7s ;
+        }
+    }
+}
+path{
+    color: #{$blue_color};
+}
+//  end header
+
+
+.main_contact {
+    .container{
+        .row{
+            .Create_your_website{
+                box-shadow: 20px 20px 20px 0px #eee;
+                border-radius: 30px;
+                h1{
+                    color: #2e81a6ad ;
+                }
+                svg {
+                    font-size: 130px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.container_staff{
+    background: #f2f2f23d;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 4px 17px 13px 0px #e6e5e5;
+    margin: 35px;
+}
+
+
+
+footer{
+    background-color: #{$blue_color};
+    .pp{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+  
+  header{
+    nav {
+        background: none !important;
+        a{
+            color: #{$blue_color} !important ;
+        }
+    }
+  } 
+  path{
+            color: #{$blue_color};
+  }
+}
